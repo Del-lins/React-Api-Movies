@@ -11,7 +11,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Api-Movies">
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
